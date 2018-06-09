@@ -106,6 +106,8 @@ start:
 			printf("второе число не кратно первому\n\n");
 	}
 	break;
+	default:
+		printf("\nerror: no tasks\n\n");
 	}
 	goto start;
 }
