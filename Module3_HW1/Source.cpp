@@ -8,11 +8,11 @@
 void main()
 {
 
-	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+	setlocale(LC_ALL, "Rus");
 
 	srand(time(NULL));
 
-	setlocale(LC_ALL, "Rus");
+	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 
 	int tn = 0;
 
