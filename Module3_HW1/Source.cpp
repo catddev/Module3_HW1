@@ -84,11 +84,11 @@ start:
 		m3 = -1000 + rand() % 5000;
 		printf("\n%d %d %d\n\n", m1, m2, m3);
 
-		if (m1 <= m2&&m1 <= m3)
+		if (m1 < m2)
 			min = m1;
-		else if (m2 <= m1 && m2 <= m3)
-			min = m2;
 		else
+			min = m2;
+		if (m3 < min)
 			min = m3;
 		printf("minimum: %d\n\n", min);
 	}
@@ -101,9 +101,9 @@ start:
 		printf("\nm=%d \tn=%d\n\n", m, n);
 
 		if (n%m == 0)
-			printf("âòîğîå ÷èñëî êğàòíî ïåğâîìó\n\n");
+			printf("Ã¢Ã²Ã®Ã°Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã® ÃªÃ°Ã Ã²Ã­Ã® Ã¯Ã¥Ã°Ã¢Ã®Ã¬Ã³\n\n");
 		else
-			printf("âòîğîå ÷èñëî íå êğàòíî ïåğâîìó\n\n");
+			printf("Ã¢Ã²Ã®Ã°Ã®Ã¥ Ã·Ã¨Ã±Ã«Ã® Ã­Ã¥ ÃªÃ°Ã Ã²Ã­Ã® Ã¯Ã¥Ã°Ã¢Ã®Ã¬Ã³\n\n");
 	}
 	break;
 	default:
