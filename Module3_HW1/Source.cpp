@@ -86,7 +86,7 @@ start:
 
 		if (m1 <= m2&&m1 <= m3)
 			min = m1;
-		else if (m2 <= m1 && m2 <= m3)
+		else if (m2 <= m1)
 			min = m2;
 		else
 			min = m3;
