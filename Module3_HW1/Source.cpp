@@ -84,11 +84,11 @@ start:
 		m3 = -1000 + rand() % 5000;
 		printf("\n%d %d %d\n\n", m1, m2, m3);
 
-		if (m1 <= m2&&m1 <= m3)
+		if (m1 < m2)
 			min = m1;
-		else if (m2 <= m1)
-			min = m2;
 		else
+			min = m2;
+		if (m3 < min)
 			min = m3;
 		printf("minimum: %d\n\n", min);
 	}
