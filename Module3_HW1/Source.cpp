@@ -71,7 +71,7 @@ start:
 	break;
 	case 4:
 	{
-		int n = 10 + rand() % 89;
+		int n = 10 + rand() % 90;
 		printf("\n%d\n\n", n);
 		printf("first digit: %d \nlast digit: %d\n\n", n / 10, n % 10);
 	}
