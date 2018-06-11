@@ -26,9 +26,9 @@ start:
 	case 1:
 	{
 		int h, m, s;
-		h = 0 + rand() % 23;
-		m = 0 + rand() % 59;
-		s = 0 + rand() % 59;
+		h = 0 + rand() % 24;
+		m = 0 + rand() % 60;
+		s = 0 + rand() % 60;
 		printf("\n%d hours %d minutes %d seconds\n\n", h, m, s);
 		
 		s = h * 3600 + m * 60 + s;
@@ -71,7 +71,7 @@ start:
 	break;
 	case 4:
 	{
-		int n = 10 + rand() % 99;
+		int n = 10 + rand() % 89;
 		printf("\n%d\n\n", n);
 		printf("first digit: %d \nlast digit: %d\n\n", n / 10, n % 10);
 	}
