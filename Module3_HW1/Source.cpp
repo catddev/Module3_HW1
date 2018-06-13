@@ -17,7 +17,6 @@ void main()
 	int tn = 0;
 
 start:
-
 	printf("task number:\t");
 	scanf("%d", &tn);
 
