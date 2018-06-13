@@ -1,4 +1,4 @@
-#include<stdio.h>
+﻿#include<stdio.h>
 #include<stdlib.h>
 #include<locale.h>
 #include<math.h>
@@ -6,8 +6,8 @@
 #include <Windows.h>
 
 void main()
-{
 
+{
 	setlocale(LC_ALL, "Rus");
 
 	srand(time(NULL));
